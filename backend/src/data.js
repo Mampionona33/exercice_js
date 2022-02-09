@@ -1,3 +1,4 @@
-const stringArray = 'Mampionona';
+const stringArray = 'Mampionona are you fine ?';
+const fruits = ['mangue', 'poire', 'pèche', 'orange'];
 
-export { stringArray };
+export { stringArray, fruits };

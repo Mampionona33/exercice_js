@@ -1,8 +1,8 @@
-import { stringArray } from './data';
+import { stringArray, fruits } from './data';
 
 export const index = () => {
   const myParagraph = document.createElement('p');
-  myParagraph.innerText = `hello ${stringArray}`;
+  myParagraph.innerText = `hello ${fruits}`;
   document.body.appendChild(myParagraph);
 };
 

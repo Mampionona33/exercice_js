@@ -16,7 +16,7 @@
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"stringArray\": () => (/* binding */ stringArray)\n/* harmony export */ });\nvar stringArray = 'Mampionona';\n\n\n//# sourceURL=webpack://backend/./src/data.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"stringArray\": () => (/* binding */ stringArray),\n/* harmony export */   \"fruits\": () => (/* binding */ fruits)\n/* harmony export */ });\nvar stringArray = 'Mampionona are you fine ?';\nvar fruits = ['mangue', 'poire', 'pèche', 'orange'];\n\n\n//# sourceURL=webpack://backend/./src/data.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"index\": () => (/* binding */ index)\n/* harmony export */ });\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data */ \"./src/data.js\");\n\nvar index = function index() {\n  var myParagraph = document.createElement('p');\n  myParagraph.innerText = \"hello \".concat(_data__WEBPACK_IMPORTED_MODULE_0__.stringArray);\n  document.body.appendChild(myParagraph);\n};\nindex();\n\n//# sourceURL=webpack://backend/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"index\": () => (/* binding */ index)\n/* harmony export */ });\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data */ \"./src/data.js\");\n\nvar index = function index() {\n  var myParagraph = document.createElement('p');\n  myParagraph.innerText = \"hello \".concat(_data__WEBPACK_IMPORTED_MODULE_0__.fruits);\n  document.body.appendChild(myParagraph);\n};\nindex();\n\n//# sourceURL=webpack://backend/./src/index.js?");
 
 /***/ })
 
