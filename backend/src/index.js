@@ -2,7 +2,7 @@ import { stringArray, fruits } from './data';
 
 export const index = () => {
   const myParagraph = document.createElement('p');
-  myParagraph.innerText = `hello ${fruits}`;
+  myParagraph.innerText = `hello : ${fruits}`;
   myParagraph.id = 'myPara';
 
   const handleClikShow = () => {
@@ -11,7 +11,9 @@ export const index = () => {
 
   const handleClikHide = () => {
     const getPara = document.getElementById('myPara');
-    document.body.removeChild(getPara);
+    if (getPara) {
+      document.body.removeChild(getPara);
+    }
   };
 
   const butShow = document.createElement('button');
